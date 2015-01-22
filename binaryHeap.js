@@ -5,6 +5,7 @@
 
 binaryHeap = function (comparisonFunction) {
     this.cmp = comparisonFunction;
+    this.content = [];
 };
 
 binaryHeap.prototype = {
